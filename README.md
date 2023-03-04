@@ -1,1 +1,0 @@
-# Privezentsev-Daniil-first-VK
