@@ -157,14 +157,16 @@ class TimeToWordConverter implements TimeToWordConvertingInterface
         $minute = $minuteWords[60 - $minutes];
         return $minute . " до часа";
     }
+
+    function testTimeToWordConverter(): void
+    {
+        $hours = (int) readline();
+        $minutes = (int) readline();
+
+        $converter = new TimeToWordConverter();
+        $result = $converter->convert($hours, $minutes);
+
+        echo $result . PHP_EOL;
+    }
 }
-
-
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $hours = $_POST['clock'];
-    $minutes = $_POST['minut'];
-    $converter = new TimeToWordConverter();
-    $result = $converter->convert($hours, $minutes);
-
-    echo "$result</p>";
-}
+$this->testTimeToWordConverter();
