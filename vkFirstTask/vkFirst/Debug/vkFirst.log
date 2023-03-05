@@ -1,0 +1,3 @@
+﻿  Main.cpp
+E:\Working\php-edu\vkFirst\Main.cpp(37,9): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
+  vkFirst.vcxproj -> E:\Working\php-edu\vkFirst\Debug\vkFirst.exe
