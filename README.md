@@ -1,4 +1,5 @@
-# privezentsev
+# Privezentsev-Daniil
+
 Здесь находятся две папки vkFirstTask и vkSecondTask <br>
 В каждой из них находится файл(ы) с расширением .php <br>
 В vkFirstTask есть два варианта решения: 
